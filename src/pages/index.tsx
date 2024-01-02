@@ -2,8 +2,8 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { useDropzone } from "react-dropzone";
-import { use, useEffect, useState } from "react";
-import { initDB } from "./helper/init-db";
+import { useEffect, useState } from "react";
+import { initDB } from "./helper/database";
 
 const inter = Inter({ subsets: ["latin"] });
 
